@@ -1,0 +1,76 @@
+/*general*/
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linen;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    max-width: 1024px;
+}
+
+h2 {
+    color: gray;
+    font-style: italic;
+    margin-top: 60px;
+}
+  
+/*part 1*/
+.link-1:hover {
+  color: plum;
+  font-weight: bold;
+}
+.link-2:active {
+  color: peru;
+  font-style: italic;
+}
+.link-3:visited {
+  color: powderblue;
+}
+.input-1:focus {
+  font-size: 20px;
+  color: lightgreen;
+}
+
+/*part 2*/
+nav {
+    background: peachpuff;
+    color: white;
+    display: flex;
+}
+
+nav ul {
+    background: powderblue;
+    display: flex;
+    margin: auto;
+    padding: 0px;
+    list-style-type: none;
+}
+
+nav li:first-child {
+    margin-left: 0px;
+}
+
+nav li {
+    margin: 0px 25px;
+    background: lightgreen;
+    padding: 10px;
+}
+
+nav li:hover {
+    background: lightblue;
+    color: black;
+}
+
+nav li:last-child {
+    margin-right: 0px;
+}
+
+.current-page {
+    background: gray;
+    color: black;
+}
+
+nav input:focus {
+    outline: none;
+    border: 1px solid aqua;
+}
